@@ -1,0 +1,118 @@
+
+body{
+    
+    background-color: none;
+    background-repeat: no-repeat;
+    background-attachment: none;
+    color:black;
+    text-align: justify;
+    font-family: verdana;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+
+    
+}
+
+p{
+
+  background-color: none;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100%;
+    color: gray;
+    text-align: justify;
+    font-size: 12px;
+    padding:20px;
+}
+
+
+a.mainText:link, a.mainText:visited {
+  background-color: none;
+  color: black;
+  padding: 15px 25px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:larger;
+}
+
+
+a.menu:link, a.menu:visited {
+  background-color: none;
+  color: black;
+  padding: 40px 25px 10px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: size 15px;;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px; 
+  width: 80px;
+  height: 17px;  
+}
+
+a.menu:hover {
+  background-color: white;
+  color: black;
+  padding: 20px 25px 10px 15px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: size 15px;;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  padding: 10px; 
+  width: 80px;
+  height: 17px;  
+}
+
+.sub-TitlePar1{
+
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  right: 600px;
+  background:none ;
+}
+
+.par-1-ChiSiamo{
+
+  text-align: justify;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  right: 600px;
+  background:none ;
+}
+
+.par-2-ChiSiamo{
+
+  text-align: justify;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  right: 75px;
+  background:none ;
+}
+
+.sub-TitlePar2{
+
+  position: absolute;
+  top: 370px;
+  left: 620px;
+  right: 75px;
+  background:none ;
+}
+
+.responsive {
+  width: 75%;
+  max-width: 800px;
+  height: 400px;
+
+}
+ 
