@@ -3,18 +3,45 @@ body{
     
     background-color: none;
     background-repeat: no-repeat;
-    background-attachment: none;
+    
     color:black;
     text-align: justify;
     font-family: verdana;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position:center;
     margin: 5px;
 
     
 }
+div#container{
+  position:relative; 
+  width: 100%; 
+  height: auto !important;
+  height: 100%;
+  min-height:100%;
+}
+footer{
 
+  background-color: rgb(88, 85, 85);
+  bottom:0;
+  left: 0;
+  right: 0;
+  height:100px;
+  position:static;
+  width:100%;
+  text-align:center;
+  
+  
+}
+
+div#content{
+
+    padding: 0 0 100px 0;
+    width: 1200px;
+    margin: 5px auto;  
+
+}
 .menuBdy{
 
     
@@ -148,38 +175,39 @@ a.menu:hover {
 
 .sub-TitlePar1{
 
-  position: absolute;
-  top: 100px;
+  position: relative;
+  top: 20px;
   left: 40px;
   right: 600px;
   background:none ;
 }
 
-.par-1-ChiSiamo{
+.par-1{
 
   text-align: justify;
-  position: absolute;
-  top: 110px;
+  position: relative;
+  top: 0;
   left: 20px;
   right: 600px;
   background:none ;
   
 }
 
-.par-2-ChiSiamo{
+.par-2{
 
   text-align: justify;
-  position: absolute;
-  top: 400px;
+  position: relative;
+  top: 50px;
   left: 600px;
   right: 150px;
   background:none ;
 }
 
+
 .sub-TitlePar2{
 
-  position: absolute;
-  top: 370px;
+  position: relative;
+  top: 210px;
   left: 620px;
   right: 75px;
   background:none ;
